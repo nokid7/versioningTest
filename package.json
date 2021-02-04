@@ -1,6 +1,6 @@
 {
   "name": "versioningtest",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Testing version in npm an git",
   "main": "index.js",
   "scripts": {
