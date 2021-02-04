@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "git": "npm version patch  && git push --tags"
+    "git": "npm version patch  && git push --all"
   },
   "keywords": [
     "version"
