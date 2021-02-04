@@ -4,11 +4,13 @@
   "description": "Testing version in npm an git",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "git": "npm version patch  && git push --tags"
   },
   "keywords": [
     "version"
   ],
   "author": "Noel Kidane",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {}
 }
