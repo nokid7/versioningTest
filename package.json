@@ -1,13 +1,13 @@
 {
   "name": "versioningtest",
-  "version": "1.0.11",
+  "version": "1.1.0",
   "description": "Testing version in npm an git",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "git": "npm version patch  && git push && git push --tags",
-    "minor":"npm version minor  && git push && git push --tags",
-    "major":"npm version major  && git push && git push --tags"
+    "minor": "npm version minor  && git push && git push --tags",
+    "major": "npm version major  && git push && git push --tags"
   },
   "keywords": [
     "version"
